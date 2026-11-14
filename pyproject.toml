@@ -18,6 +18,11 @@ dependencies = [
   "patool>=2.0",
 ]
 
+[project.optional-dependencies]
+gpu = [
+  "tensorflow[and-cuda]>=2.15",
+]
+
 [tool.setuptools]
 include-package-data = true
 
