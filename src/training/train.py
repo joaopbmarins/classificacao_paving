@@ -179,7 +179,7 @@ def train_model(
 
 def main():
     parser = argparse.ArgumentParser(description="Train a pavement-classification model.")
-    parser.add_argument("--model", choices=["mobilenetv2", "resnet50"], default="mobilenetv2")
+    parser.add_argument("--model", choices=["mobilenetv2", "resnet50", "efficientnetb3"], default="mobilenetv2")
     parser.add_argument("--train-dir", type=Path, default=TRAIN_DIR)
     parser.add_argument("--test-dir", type=Path, default=TEST_DIR)
     parser.add_argument("--output", type=Path, default=MODEL_PATH)

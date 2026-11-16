@@ -17,6 +17,8 @@ Este projeto é uma pesquisa aplicada em visão computacional para classificaç�
 | MobileNetV2 + ROI | 85,00% | 71,23% | 72,04% |
 | ResNet50 | 87,67% | 73,21% | 76,55% |
 | ResNet50 + ROI| 89,33% | 78,55% | 79,81% |
+| EfficientNetB3 | 85,67% | 78,41% | 76,94% |
+| EfficientNetB3 + ROI| 84,00% | 75,22% | 75,63% |
 
 
 ## Próximos passos

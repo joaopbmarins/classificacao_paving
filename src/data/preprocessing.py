@@ -9,6 +9,7 @@ from src.config.settings import IMAGE_SIZE
 PREPROCESSORS = {
     "mobilenetv2": tf.keras.applications.mobilenet_v2.preprocess_input,
     "resnet50": tf.keras.applications.resnet50.preprocess_input,
+    "efficientnetb3": tf.keras.applications.efficientnet.preprocess_input,
 }
 
 
