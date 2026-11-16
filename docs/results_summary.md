@@ -9,14 +9,15 @@ Este projeto é uma pesquisa aplicada em visão computacional para classificaç�
 - conjunto de validação separado do treino e teste reservado para avaliação final;
 - métricas e gráficos gerados pelos scripts são armazenados em `results/`.
 
-## Resultados a registrar
+## Resultados
 
 | Modelo | Acurácia | Acurácia balanceada | F1 macro |
 |---|---:|---:|---:|
-| MobileNetV2 | A executar | A executar | A executar |
-| ResNet50 | A executar | A executar | A executar |
+| MobileNetV2 | 86,67% | 74,43% | 74,68% |
+| MobileNetV2 + ROI | 85,00% | 71,23% | 72,04% |
+| ResNet50 | 87,67% | 73,21% | 76,55% |
+| ResNet50 + ROI| 89,33% | 78,55% | 79,81% |
 
-Não foram inseridos valores estimados: preencher a tabela com os resultados produzidos em `results/metrics/classification_report.json`.
 
 ## Próximos passos
 
